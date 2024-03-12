@@ -1,0 +1,240 @@
+/* MediaQ: */
+@media (max-width: 3000px) {
+    body{
+        background-color: rgb(90, 125, 114);
+    }
+    .secretsidebar{
+       
+        width:15%;
+        display:block;
+    }
+    .one{
+       
+        width:33%;
+        display:block;
+    }
+    .two{
+       
+        width:33%;
+        display:block;
+    }
+    .three{
+       
+        width:33%;
+        display:block;
+    }
+}
+/* ------------------------------------------------[Desktop] */
+@media (max-width: 880px) {
+    body{
+        background-color:rgb(90, 125, 114);
+    }
+    .secretsidebar{
+      
+        width:15%;
+        display:block;
+    }
+    .one{
+       
+        width:50%;
+        display:block;
+    }
+    .two{
+        
+        width:50%;
+        display:block;
+    }
+    .three{
+       
+        width:33%;
+        display:none;
+    }
+    
+}
+/* ------------------------------------------------[Tablet] */
+@media (max-width: 580px) {
+    body{
+        background-color: rgb(90, 125, 114);;
+    }
+    .secretsidebar{
+        
+        width:25%;
+        display:none;
+    }
+    .one{
+      
+        width:100%;
+        display:block;
+    }
+    .two{
+        
+        width:33%;
+        display:none;
+    }
+    .three{
+    
+        width:33%;
+        display:none;
+    }
+}
+/* ------------------------------------------------[Mobile] */
+.navContainer{
+ 
+ height:6vh;
+ margin:1em;
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.top{
+
+ height:42vh;
+ margin:1em;
+ display:flex;
+ justify-content: space-evenly;
+ margin:1em;
+}
+.middle{
+ 
+ margin:1em;
+ display:flex;
+}
+.bottom{
+ 
+ border-width:.1px;
+ width: 80%;
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ align-items:center;  
+}
+
+.logo{
+   
+    height:100%;
+}
+.tagContainer{
+    
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.navTag{
+    
+    width:30%;
+    text-align:center;
+    font-size:12px; color: rgb(248, 248, 248);
+
+}
+.left-image{
+  
+    width:60%;
+
+}   
+.textbox{
+  
+    font-style: italic; color: rgb(246, 244, 241);
+    text-align: center;
+    padding: 6%;
+    width:auto;
+    height: auto;
+    display:flex;
+    overflow:hidden
+     
+}  
+
+.dropbtn {
+   
+    background-color: #fb0574;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.dropdown {
+    
+    position: relative;
+    display: inline-block;
+   
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+

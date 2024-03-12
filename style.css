@@ -1,0 +1,42 @@
+body {
+    background-color: #000000;
+    background-image: url(https://data.1freewallpapers.com/download/leaf-drops-plant-dark-wet-2560x1600.jpg)
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.logo {
+    height: auto;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.button { 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button a {
+    background-color: #f8098c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button a:hover {
+    background-color: hsl(326, 94%, 14%);
+}
